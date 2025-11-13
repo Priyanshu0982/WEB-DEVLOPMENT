@@ -1,0 +1,72 @@
+<title>Laptop Product Card</title>
+
+  <style>
+    /* Page background color set to grey */
+    body {
+      background-color: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    /* Product card design */
+    .product-card {
+      background-color: white;
+      border: 3px solid red;
+      border-radius: 10px;
+      width: 280px;
+      height: 400px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Image styling */
+    .product-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Title */
+    .product-title {
+      font-size: 1.2rem;
+      margin: 15px 0 5px;
+    }
+
+    /* Price */
+    .product-price {
+      font-size: 1.1rem;
+      color: green;
+      margin-bottom: 15px;
+    }
+
+    /* Add to Cart button */
+    .add-to-cart {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .add-to-cart:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-card">
+    <img src="https://imgs.search.brave.com/y23aCHRR7UOgZrs3zu3H_T9E_OR_asuzM5ag5Geq0hY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/OTEtaW1nLmNvbS9w/aWN0dXJlcy9sYXB0/b3BzL2hwL2hwLTE1/LWVnMzAxOHR1LTg3/YjU3cGEtMTU5MDI0/LXYxLW9yaWdpbmFs/LTMuanBnP3RyPWgt/MTgwLGMtYXRfbWF4/LHEtNzAsdC10cnVl" alt="Laptop" class="product-image">
+    <h2 class="product-title">HP Pavilion Laptop</h2>
+    <p class="product-price">rs 49,999</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+</body>
+</html>
